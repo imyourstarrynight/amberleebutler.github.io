@@ -7,14 +7,15 @@
 
 body{
     background-color: floralwhite;
-    font-family: "Segoe Script";
+    font-family: "Segoe Script", cursive;
 }
 
 .main-article{
     margin-left: 225px;
 }
 
-main h2{
+main{
+    margin-left: 225px;
     margin-top: 10px;
 }
 
@@ -31,7 +32,7 @@ header p{
     text-align: center;
 }
 
-ul {
+nav ul {
     margin: 0;
     padding: 0; 
     width: 200px;
@@ -41,11 +42,11 @@ ul {
     background-color: rgb(255, 225, 166);
 }
 
-li{
+nav li{
     text-align: center;
 }
 
-li a {
+nav li a {
   display: block;
   color: black;
   padding: 8px 16px;
