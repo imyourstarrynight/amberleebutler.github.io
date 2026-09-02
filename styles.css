@@ -1,13 +1,44 @@
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}   
+
 body{
+    background-color: floralwhite;
     font-family: "Segoe Script";
+}
+
+.main-article{
+    margin-left: 225px;
+}
+
+main h2{
+    margin-top: 10px;
+}
+
+header{
+    background-color: #f9b9ff;
+}
+
+header h1{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+header p{
+    text-align: center;
 }
 
 ul {
     margin: 0;
     padding: 0; 
     width: 200px;
+    height: 100%;
+    position: fixed;
     list-style-type: none;
-    background-color: floralwhite;
+    background-color: rgb(255, 225, 166);
 }
 
 li{
