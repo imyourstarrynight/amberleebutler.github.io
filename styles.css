@@ -21,6 +21,7 @@ main{
 
 header{
     background-color: #f9b9ff;
+    border-bottom: solid black;
 }
 
 header h1{
@@ -40,6 +41,7 @@ nav ul {
     position: fixed;
     list-style-type: none;
     background-color: rgb(255, 225, 166);
+    border-right: solid black;
 }
 
 nav li{
