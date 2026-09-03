@@ -14,6 +14,13 @@ body{
     margin-left: 225px;
 }
 
+table, th, td{
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 225px;
+    border: solid;
+    border-collapse: collapse;
+}
 main{
     margin-left: 225px;
     margin-top: 10px;
